@@ -1,0 +1,16 @@
+{
+  "name": "node-mal",
+  "version": "1.0.0",
+  "description": "A nodejs wrapper for MAL RESTful API",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbsoluteZero273",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17"
+  }
+}
