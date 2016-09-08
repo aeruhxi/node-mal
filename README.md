@@ -2,6 +2,10 @@
 
 Simple node.js wrapper for [MyAnimeList REST API](https://myanimelist.net/modules.php?go=api)
 
+## Dependencies
+* request
+* xml2js
+
 ## Authentication
 As MyAnimeList API requires authentication, you need to add username and password in `auth.json` to use this wrapper
 ```json
