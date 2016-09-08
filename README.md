@@ -41,7 +41,8 @@ mal.addEntry('anime', '32370', animeValues)
   .catch(() => console.log('Failed: Anime was not added'));
 ```
 
-For more properties of anime values, check [MAL API page](https://myanimelist.net/modules.php?go=api#animevalues)
+More examples [here](https://github.com/AbsoluteZero273/node-mal/blob/master/examples/example.js)<br>
+For more properties of anime values, check [MAL API page](https://myanimelist.net/modules.php?go=api#animevalues). 
 
 ## Methods
 
