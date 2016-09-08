@@ -53,6 +53,8 @@ class Mal{
 
   /**
    * Make a request
+   *
+   * @private
    * @param {String} meth method {POST|GET|DELETE}
    * @param {String} endpoint request url
    * @param {String} xmlData XML data in string
@@ -88,6 +90,7 @@ class Mal{
 
   /**
    * Verify account credentials
+   *
    * @return {Promise<Object, Error>} user object
    */
   verifyCredentials() {
@@ -104,6 +107,7 @@ class Mal{
 
   /**
    * Search manga or anime
+   *
    * @param {String} type Entry type {anime|manga}
    * @param {String} name Search string
    * @return {Promise<Object, Error>} Array of search results
@@ -129,10 +133,11 @@ class Mal{
 
   /**
    * Add manga or anime
+   *
    * @param {String} type Entry type {anime|manga}
    * @param {String} id unique ID of anime/manga series
    * @param {Object} data Object containing anime/manga values
-   * @return {Promise<String, Error>}
+   * @return {Promise<String, Error>} String thrown is not of any use
    */
   addEntry(type, id, data) {
     if (!(type === 'anime'|| type === 'manga')) throw 'Invalid type';
@@ -146,10 +151,11 @@ class Mal{
 
   /**
    * Update manga or anime
+   *
    * @param {String} type Entry type {anime|manga}
    * @param {String} id unique ID of anime/manga series
    * @param {Object} data Object containing anime/manga values
-   * @return {Promise<String, Error>}
+   * @return {Promise<String, Error>} String thrown is not of any further use
    */
   updateEntry(type, id, data) {
     if (!(type === 'anime'|| type === 'manga')) throw 'Invalid type';
@@ -163,9 +169,10 @@ class Mal{
 
   /**
    * Search manga or anime
+   *
    * @param {String} type Entry type {anime|manga}
    * @param {String} id unique ID of anime/manga series
-   * @return {Promise<String, Error>}
+   * @return {Promise<String, Error>} String thrown is not of any further use
    */
   deleteEntry(type, id) {
     if (!(type === 'anime'|| type === 'manga')) throw 'Invalid type';
