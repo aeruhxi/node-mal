@@ -1,6 +1,6 @@
 {
   "name": "node-mal",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A nodejs wrapper for MAL RESTful API",
   "main": "main.js",
   "scripts": {
