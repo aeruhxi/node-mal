@@ -1,5 +1,5 @@
-const Mal = require('./main.js');
-const auth = require('./auth.json');
+const Mal = require('../main.js');      // Require main module
+const auth = require('./auth.json');    // Require authenticatoin file
 
 let mal = new Mal(auth);
 
