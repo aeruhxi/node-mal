@@ -47,8 +47,6 @@ class Mal{
 
     // XML Parser
     this.parseString = (new xml2js.Parser({explicitArray: false})).parseString;
-
-
   }
 
   /**
