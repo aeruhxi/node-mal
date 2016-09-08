@@ -42,7 +42,7 @@ mal.addEntry('anime', '32370', animeValues)
 ```
 
 More examples [here](https://github.com/AbsoluteZero273/node-mal/blob/master/examples/example.js)<br>
-For more properties of anime values, check [MAL API page](https://myanimelist.net/modules.php?go=api#animevalues). 
+For more properties of anime values, check [MAL API page](https://myanimelist.net/modules.php?go=api#animevalues).
 
 ## Methods
 
@@ -66,7 +66,7 @@ mal.addEntry(type, id, data)
 ```
 
 ### updateEntry
-Update anime/manga in your list. Takes same parameter as
+Update anime/manga in your list. Takes same parameter as `addEntry`
 ```js
 mal.updateEntry(type, id, data)
 ```
